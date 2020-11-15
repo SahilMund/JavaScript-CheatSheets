@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Form Validations</title>
+	<script src = "js.js" type = "text/javascript">
+
+	</script>
+</head>
+<body>
+
+	<form onsubmit = "return validate()" action = "message.html">
+        <input id = "uname" placeholder = "Username"
+        type = "text"/>
+        <label id = "lbluser" style = "color: red; visibility:hidden;"> Invalid</label>
+        <br><br>
+
+        <input id = "pass" placeholder = "Password"
+        type = "password"/>
+        <label id = "lblpass" style = "color: red; visibility:hidden;"> Invalid</label>
+        <br><br>
+
+        <button  type = "submit">Submit</button>
+    </form>
+
+</body>
+</html>
